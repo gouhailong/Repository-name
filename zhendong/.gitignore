@@ -1,0 +1,57 @@
+# Keil / MDK generated files
+MDK-ARM/*/*.o
+MDK-ARM/*/*.d
+MDK-ARM/*/*.crf
+MDK-ARM/*/*.htm
+MDK-ARM/*/*.map
+MDK-ARM/*/*.lnp
+MDK-ARM/*/*.axf
+MDK-ARM/*/*.hex
+MDK-ARM/*/*.lst
+MDK-ARM/*/*.dep
+MDK-ARM/*/*.bak
+MDK-ARM/*/*.uvgui*
+MDK-ARM/*/*.scvd
+MDK-ARM/zhendong/
+MDK-ARM/DebugConfig/
+
+# Build outputs
+build/
+Debug/
+Release/
+Objects/
+Listings/
+*.elf
+*.bin
+*.map
+*.lst
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+
+# User/editor/local files
+.vscode/
+.idea/
+*.user
+*.tmp
+*.log
+Thumbs.db
+Desktop.ini
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Keep source, CubeMX project, Keil project, tools, and docs
+!Core/
+!Drivers/
+!Middlewares/
+!User/
+!Tools/
+!docs/
+!zhendong.ioc
+!MDK-ARM/startup_stm32f103xb.s
+!MDK-ARM/zhendong.uvprojx
+!MDK-ARM/zhendong.uvoptx
