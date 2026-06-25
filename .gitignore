@@ -1,0 +1,18 @@
+# Keil MDK / STM32CubeIDE 编译产物
+Debug/
+Release/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.d
+*.lst
+*.uvopt
+*.uvgui*
+*.bak
+*.sct
+
+# 开发环境缓存
+.vscode/
+.DS_Store
