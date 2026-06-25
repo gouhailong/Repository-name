@@ -1,1 +1,4 @@
-# Repository-name
+- 基于 STM32F103C8T6 + MPU6050 + FreeRTOS 实现振动异常检测终端，完成 200Hz 采样、滑动窗口特征提取、自学习基线和状态机报警。
+- 设计 RMS、峰峰值、峰值因子融合评分算法，并通过报警保持/恢复保持机制降低误报。
+- 将采样、处理、检测、通信和看门狗拆分为多任务，使用 FreeRTOS 队列与任务通知实现解耦。
+- 实现任务级 IWDG 看门狗和 UART JSON 日志输出，开发 Python/Tkinter 上位机实时显示 RMS/P2P/Score 曲线。
